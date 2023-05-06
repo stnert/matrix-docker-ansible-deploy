@@ -1,5 +1,5 @@
 # Pull nginx base image
-FROM nginx:latest
+FROM nginx:1-bullseye
 
 # Expost port 80
 EXPOSE 80
